@@ -11,6 +11,7 @@ export default function SmallFooter() {
 
 const Footer = styled.footer`
   padding: 3rem 0;
+  margin-top: 3rem;
   margin-bottom: 8rem;
   border-top: solid 1px ${(props) => props.theme.colors.greyColor};
   p {
@@ -19,5 +20,10 @@ const Footer = styled.footer`
   span {
     color: ${props => props.theme.colors.primaryColor};
     font-weight: 900;
+  }
+
+  @media ${props => props.theme.breakpoints.md} {
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
   }
 `;

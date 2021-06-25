@@ -9,9 +9,12 @@ export const Layout = styled.div`
   width: 100%;
   display: flex;
   flex-flow: row;
+  
+
   @media ${props => props.theme.breakpoints.lg} {
     display: flex;
     flex-flow: column;
+    height: 100%;
     overflow-y: scroll;
   }
 `
@@ -20,10 +23,22 @@ export const Layout = styled.div`
 export const ImageContainer = styled.div`
   font-size: 2rem;
   width: 30%;
-  padding: 2rem;
+  overflow: hidden;
+  object-fit: cover;
+  img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
   @media ${props => props.theme.breakpoints.lg} {
     width: 100%;
     height: 30%;
+    overflow: hidden;
+    img {
+    height: 10%;
+    width: 100%;
+    object-fit: cover;
+  }
   }
 `
 export const MainContainer = styled.div`
@@ -32,14 +47,18 @@ export const MainContainer = styled.div`
   position: relative;
   overflow-y: scroll;
   /* padding: 3rem; */
+
+  h3 {
+    margin: 2rem 0;
+  }
   @media ${props => props.theme.breakpoints.lg} {
     width: 100%;
-    height: 100%;
+    height: 80vh;
+    overflow-y: hidden;
   }
 `
 
 export const Container = styled.div`
   width: 90%;
-  height: 100%;
   margin: 0 auto;
 `

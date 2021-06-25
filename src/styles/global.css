@@ -1,0 +1,5 @@
+.sliderImg {
+  background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0.931), rgba(8, 8, 8, 0), rgba(8, 8, 8, 0.664)), url(../assets/slider.jpg);
+  background-position: center;
+  background-size: cover;
+}

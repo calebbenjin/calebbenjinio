@@ -10,7 +10,7 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 10%;
+  height: 15%;
   position: sticky;
   top: 0;
   left: 0;

@@ -3,6 +3,7 @@ import SectionTitle from '@/components/SectionTitle'
 import styled from 'styled-components'
 import {projects} from '@/components/data'
 import Link from 'next/link'
+import { FaRegEye, FaCode } from 'react-icons/fa'
 // import Image from 'next/image'
 
 export default function projectsPage() {
@@ -16,15 +17,15 @@ export default function projectsPage() {
             <Card key={item.id}>
               <Image src={item.image} />
               <div className='content'>
-                <h3>{item.title}</h3>
+                <h5>{item.title} &rarr;</h5>
                 {/* <p>{item.description}</p> */}
                 <Tags>
                   {item.tags.map((tag, i) => (
                     <p key={i}>{tag}</p>
                   ))}
                 </Tags>
-                <Link href={item.source}>
-                  <a className="link">Learn more</a>
+                <Link href={`/project/${item.title}`}>
+                  <a className="link">View more <FaRegEye className="icon" /> </a>
                 </Link>
               </div>
             </Card>
@@ -41,8 +42,17 @@ const Section = styled.div`
 `
 
 const Flex = styled.div`
-  display: flex;
-  flex-flow: wrap row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  @media ${(props) => props.theme.breakpoints.md} {
+    /* flex-flow: wrap column; */
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
 `
 
 const Tags = styled.div`
@@ -52,39 +62,59 @@ const Tags = styled.div`
   p {
     margin: 0;
     margin-bottom: 1.2rem;
+    margin-top: 1rem;
     margin-right: 2rem;
-    background: ${props => props.theme.colors.darkColor};
+    background: #fff;
+    font-size: 1.2rem;
+    color: #333;
     padding: 2px 10px;
-    border-radius: 4px;
+    border-radius: 2px;
   }
 `
 
 const Image = styled.img`
-  width: 90%;
+  width: 100%;
+  height: 55%;
   object-fit: cover;
 `;
 
 const Card = styled.div`
-  /* display: flex; */
-  width: 50%;
-  margin-bottom: 6rem;
+  /* width: 50%; */
+  /* margin-bottom: 6rem; */
   position: relative;
-  h3 {
-    margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px;
+  h5 {
+    margin-top: 1rem;
   }
   .content {
-    background: rgba(0,0,0,0.7);
     position: absolute;
-    bottom: -3rem;
-    width: 90%;
-    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
     .link {
-      font-size: 1.5rem;
-      border-radius: 4px;
-      /* background: #fff; */
-      color: #fff;
-      /* padding: 5px 30px; */
+      display: flex;
+      align-items: center;
+      width: 38%;
+      text-align: center;
+      font-size: 1.3rem;
+      border-radius: 2px;
+      background: ${props => props.theme.colors.primaryColor};
+      color: #333;
+      padding: 5px 10px;
+      font-weight: 700;
       text-align: right;
+      transition: all 0.2s ease-in;
+      &:hover {
+        background: #fff;
+      }
+      .icon {
+        margin-left: 10px;
+        font-size: 2rem;
+      }
     }
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
   }
 `

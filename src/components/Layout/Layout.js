@@ -6,8 +6,8 @@ import SmallFooter from '@/components/Footer/SmallFooter'
 export default function LayoutPage({children}) {
   return (
     <Layout>
-      <ImageContainer>
-        <h1>Image Container</h1>
+      <ImageContainer className="sliderImg">
+        <h3>Calebbenjin.dev</h3>
       </ImageContainer>
       <MainContainer>
         <Header />

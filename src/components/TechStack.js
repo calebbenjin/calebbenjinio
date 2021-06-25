@@ -98,21 +98,28 @@ export const Section = styled.section`
 `
 
 export const Flex = styled.div`
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-flow: wrap row;
+  flex-flow: wrap row; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
 
   @media ${props => props.theme.breakpoints.lg} {
     /* flex-flow: wrap column; */
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
   }
 `
 
 export const Card = styled.div`
   padding: 3rem;
   border: solid 1px ${(props) => props.theme.colors.greyColor};
-  width: 30%;
-  margin: 1rem auto;
+  width: 100%;
+  /* margin: 1rem auto; */
 
   h5 {
     margin: 1rem 0;
@@ -124,7 +131,7 @@ export const Card = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.lg} {
-    width: 46%;
+    width: 100%;
     padding: 1.3rem;
   }
 `

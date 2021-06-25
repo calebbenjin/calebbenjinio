@@ -13,7 +13,7 @@ export default function SectionTitle({title, sub}) {
 const SubTitle = styled.h4`
   color: ${props => props.theme.colors.primaryColor};
   letter-spacing: 2px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.6rem;
   font-family: ${props => props.theme.fonts.mainFont}
 `;

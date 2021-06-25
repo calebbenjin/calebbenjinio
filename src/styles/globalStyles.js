@@ -27,8 +27,15 @@ const GlobalStyle = createGlobalStyle`
     font-size: 2rem;
   }
 
+  ul {
+    margin: 1rem 0;
+  }
+
   li{
-    list-style: none;
+    ${'' /* list-style: none; */}
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: ${props => props.theme.colors.textColor}
   }
 
   a {
