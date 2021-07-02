@@ -5,6 +5,7 @@ import SmallFooter from '@/components/Footer/SmallFooter'
 import { useRouter } from 'next/router'
 import { articles } from '@/components/data'
 import Logo from '@/components/Logo'
+import Image from 'next/image'
 
 export default function SinglePage() {
   const router = useRouter()
@@ -23,7 +24,7 @@ export default function SinglePage() {
         <div className="logo">
           <Logo />
         </div>
-        <img src={article.img} alt="" />
+        <Image src={article.img} alt="" />
       </ImageContainer>
       <MainContainer>
         <Header />

@@ -15,7 +15,7 @@ export default function projectsPage() {
         <Flex>
           {projects.map((item) => (
             <Card key={item.id}>
-              <Image src={item.image} />
+              <Image src={item.image} alt={item.title} />
               <div className='content'>
                 <h5>{item.title} &rarr;</h5>
                 {/* <p>{item.description}</p> */}

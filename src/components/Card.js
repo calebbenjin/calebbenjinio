@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Card({ article }) {
   return (
     <Link href='/articles/[id]'>
       <a>
         <CardStyle>
-          <img src={article.img} alt={article.title} />
+          <Image src={article.img} alt={article.title} />
           <div className='card_body'>
             <h4>{article.title} &rarr;</h4>
             <p>{article.body.slice(0, 100)}......</p>

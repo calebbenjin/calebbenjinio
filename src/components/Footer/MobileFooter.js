@@ -44,6 +44,7 @@ export default function MobileFooter() {
 
 
 const Footer = styled.footer`
+  display: none;
   @media ${(props) => props.theme.breakpoints.lg} {
     border-top: solid 1px ${(props) => props.theme.colors.greyColor};
     z-index: 9;
