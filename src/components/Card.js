@@ -7,7 +7,7 @@ export default function Card({ article }) {
     <Link href='/articles/[id]'>
       <a>
         <CardStyle>
-          <Image src={article.img} alt={article.title} />
+          <Image src={article.img} alt={article.title} width="fill" height="responsive" />
           <div className='card_body'>
             <h4>{article.title} &rarr;</h4>
             <p>{article.body.slice(0, 100)}......</p>
@@ -22,9 +22,10 @@ export default function Card({ article }) {
 
 const CardStyle = styled.div`
   background: ${(props) => props.theme.colors.darkColor};
-  height: 100%;
+  height: 300px;
+  /* width: 80%; */
   box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   .link {
     background: ${(props) => props.theme.colors.primaryColor};
@@ -50,11 +51,5 @@ const CardStyle = styled.div`
     .card_body {
       padding: 15px 20px;
     }
-  }
-
-  img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
   }
 `

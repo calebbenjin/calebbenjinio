@@ -1,4 +1,4 @@
-import { Layout, ImageContainer, MainContainer, Container } from './ArticleStyle'
+import { Layout, ImageContainer, MainContainer, Container } from '@/components/Layout/ArticleLayout'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import SmallFooter from '@/components/Footer/SmallFooter'
