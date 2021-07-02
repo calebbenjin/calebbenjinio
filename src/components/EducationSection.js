@@ -31,7 +31,7 @@ export default function EducationSection() {
       <SectionTitle title='EDUCATIONS' sub='RESUME' />
 
       {data.map((item) => (
-        <Card>
+        <Card key={item.id}>
           <h3>{item.title}</h3>
           <p className='date'>{item.date}</p>
           <p>{item.description}</p>

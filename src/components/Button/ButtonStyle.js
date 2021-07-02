@@ -13,7 +13,12 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.4s ease-in;
   &:hover {
-    background: #F68239;
+    background: #fff;
+    color: #333;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 2rem;
   }
 `

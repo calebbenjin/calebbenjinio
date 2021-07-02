@@ -82,7 +82,7 @@ export default function TechStack() {
           <Card key={item.id}>
             <i className="icon">{item.icon}</i>
             <h5>{item.title}</h5>
-            <p>{item.description}</p>
+            {/* <p>{item.description}</p> */}
           </Card>
         ))}
       </Flex>
@@ -116,17 +116,27 @@ export const Flex = styled.div`
 `
 
 export const Card = styled.div`
-  padding: 3rem;
+  padding: 2rem 3rem;
   border: solid 1px ${(props) => props.theme.colors.greyColor};
+  box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px;
+  border-radius: 6px;
   width: 100%;
-  /* margin: 1rem auto; */
+  transition: all 0.4s ease-in;
+  &:hover {
+    background: #fff;
+    transform: rotate(4deg);
+    color: #333;
+    .icon {
+      /* color: #333; */
+    }
+  }
 
   h5 {
     margin: 1rem 0;
   }
 
   .icon {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: ${(props) => props.theme.colors.primaryColor};
   }
 

@@ -14,6 +14,7 @@ const Footer = styled.footer`
   margin-top: 3rem;
   margin-bottom: 8rem;
   border-top: solid 1px ${(props) => props.theme.colors.greyColor};
+  /* box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px; */
   p {
     font-size: 1.3rem;
   }

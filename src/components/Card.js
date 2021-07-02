@@ -9,7 +9,7 @@ export default function Card({ article }) {
           <img src={article.img} alt={article.title} />
           <div className='card_body'>
             <h4>{article.title} &rarr;</h4>
-            <p>{article.body.slice(0, 148)}......</p>
+            <p>{article.body.slice(0, 100)}......</p>
 
             <span className='link'>Read More...</span>
           </div>
@@ -43,6 +43,12 @@ const CardStyle = styled.div`
   }
   .card_body {
     padding: 10px 20px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg}  {
+    .card_body {
+      padding: 15px 20px;
+    }
   }
 
   img {

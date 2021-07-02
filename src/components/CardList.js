@@ -6,7 +6,7 @@ export default function CardLit({ articles }) {
     <>
       <CardList>
         {articles.map((article) => (
-          <Card article={article} />
+          <Card key={article.id} article={article} />
         ))}
       </CardList>
     </>
@@ -18,8 +18,12 @@ const CardList = styled.div`
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   row-gap: 30px;
-  /* border: solid 1px ${(props) => props.theme.colors.greyColor}; */
-  /* flex-grow: wrap; */
+  @media ${(props) => props.theme.breakpoints.lg} {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
 
   a {
     color: #fff;

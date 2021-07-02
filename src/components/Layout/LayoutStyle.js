@@ -13,17 +13,20 @@ export const Layout = styled.div`
     display: flex;
     flex-flow: column;
     overflow-y: scroll;
+    height: 100%;
   }
 `
 
 
 export const ImageContainer = styled.div`
-  font-size: 2rem;
+  /* font-size: 2rem; */
   width: 30%;
-  padding: 2rem;
+  padding: 0 2rem;
   @media ${props => props.theme.breakpoints.lg} {
     width: 100%;
-    height: 30%;
+    height: 100%;
+    padding-bottom: 25rem;
+    padding-top: 1rem;
   }
 `
 export const MainContainer = styled.div`

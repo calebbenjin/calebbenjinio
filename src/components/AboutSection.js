@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Button from './Button/Button'
+import Icons from './Icons'
 import SectionTitle from './SectionTitle'
 
 export default function AboutSection() {
@@ -17,32 +18,20 @@ export default function AboutSection() {
       </Text>
 
       <Box>
-        <div>
           <ul>
             <li>
-              <span>Birthday:</span> 09 12 1978
-            </li>
-            <li>
-              <span>Website:</span> calebbenjin.com
+              <span>Email:</span> contact@calebbenjin.dev
             </li>
             <li>
               <span>Phone:</span> +234 906 632 2383
             </li>
-          </ul>
-          <ul>
             <li>
-              <span>Linkin:</span> 09 12 1978
-            </li>
-            <li>
-              <span>Email:</span> calebbenjin.com
-            </li>
-            <li>
-              <span>Twitter:</span> +234 906 632 2383
+              <span>Birthday:</span> 09 December
             </li>
           </ul>
-        </div>
-        <Button title='Hire Me' />
+          <Icons />
       </Box>
+        <Button title='Hire Me' />
     </Section>
   )
 }
@@ -53,38 +42,45 @@ const Section = styled.section`
 
 const Text = styled.p`
   color: ${(props) => props.theme.colors.textColor};
-  /* letter-spacing: 0px */
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin-bottom: 2rem;
+  }
 `
 
 const Box = styled.div`
   width: 80%;
   color: ${(props) => props.theme.colors.textColor};
-  div {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    align-items: center;
-    ul li {
-      margin-bottom: 3rem;
-      font-size: 1.3rem;
-      span {
-        font-weight: 700;
-        color: #eee;
-        margin-right: 1rem;
-      }
-    }
-
-    @media ${(props) => props.theme.breakpoints.lg} {
-      flex-flow: wrap column;
-      align-items: start;
-      width: 100%;
-
-      ul li {
-        margin-bottom: 1.5rem;
-      }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 3rem;
+  ul li {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+    span {
+      font-weight: 700;
+      color: #eee;
+      margin-right: 1rem;
     }
   }
+
   @media ${(props) => props.theme.breakpoints.lg} {
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 1rem;
+    ul li {
+      margin-top: 1.5rem;
+    }
   }
+@media ${(props) => props.theme.breakpoints.lg} {
+  width: 100%;
+  margin-bottom: 5rem;
+}
 `

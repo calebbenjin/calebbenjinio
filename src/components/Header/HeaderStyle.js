@@ -16,7 +16,7 @@ export const Header = styled.header`
   left: 0;
   z-index: 9;
 
-  @media ${props => props.theme.breakpoints.xl} {
+  @media ${props => props.theme.breakpoints.lg} {
     display: none;
   }
 `
@@ -32,6 +32,7 @@ export const Nav = styled.nav`
   a {
     font-size: 13px;
     transition: all 0.2s ease-in;
+    margin: 0 1rem;
     &:hover {
       color: ${props => props.theme.colors.primaryColor}
     }

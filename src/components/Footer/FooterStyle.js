@@ -11,7 +11,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: space-between;
   border-top-left-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px;
+  box-shadow: rgba(0, 0, 0, 1.97) 0px 6px 30px;
   @media ${props => props.theme.breakpoints.lg} {
     width: 100%;
     height: 9%;

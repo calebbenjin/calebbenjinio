@@ -23,22 +23,28 @@ export const Layout = styled.div`
 export const ImageContainer = styled.div`
   font-size: 2rem;
   width: 30%;
+  padding: 0 3rem;
   overflow: hidden;
   object-fit: cover;
+  position: relative;
   img {
     height: 100vh;
     width: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   @media ${props => props.theme.breakpoints.lg} {
     width: 100%;
     height: 30%;
     overflow: hidden;
+    padding: 0 3rem;
     img {
-    height: 10%;
-    width: 100%;
-    object-fit: cover;
-  }
+      height: 10%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 `
 export const MainContainer = styled.div`
