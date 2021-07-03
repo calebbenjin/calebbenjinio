@@ -7,14 +7,14 @@ export default function AboutSection() {
   return (
     <Section>
       {/* <SubTitle>Frontend/UX Engineer</SubTitle> */}
-      <Title><small>Hello,</small> I'm Caleb, the Multi-disciplinary JavaScript Engineer</Title>
+      <Title><small>Hello,</small> I&apos;m Caleb, the Multi-disciplinary JavaScript Engineer</Title>
 
-      <Text>I'm a Nigeria-based frontend engineer who care about creating thoughtful digital experiences that lie at interaction of beauty, funtional, maintainable, scaleable, and context. I have four years of experience using <span>JavaScript, ReactJS, NextJS, TypeScript Css-in-JS, Styled-Component, Redux, Unit testing, and StoryBook</span> to create digital products for Organizations of all Sizes.
+      <Text>I&apos;m a Nigeria-based frontend engineer who care about creating thoughtful digital experiences that lie at interaction of beauty, funtional, maintainable, scaleable, and context. I have four years of experience using <span>JavaScript, ReactJS, NextJS, TypeScript Css-in-JS, Styled-Component, Redux, Unit testing, and StoryBook</span> to create digital products for Organizations of all Sizes.
       </Text>
 
       <Box>
         <h4>Wanna say hey?</h4>
-        <Text>I'd love to hear from you.😍🥰</Text>
+        <Text>I&apos;d love to hear from you.</Text>
         <Icons />
       </Box>
         {/* <Button title='Hire Me' /> */}
