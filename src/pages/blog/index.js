@@ -15,7 +15,7 @@ export default function BlogPage() {
           <Title>Blog</Title>
           <div>
             <Text>I created this section with the hope that one day.</Text>
-            <Text>I'll get my art together and start writing regularly.</Text>
+            <Text>I&apos;ll get my art together and start writing regularly.</Text>
             <Text>Untill then, this blank space will haunt me.</Text>
           </div>
         </Flex>
