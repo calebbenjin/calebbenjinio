@@ -15,7 +15,7 @@ export const Layout = styled.div`
     overflow-y: scroll;
     height: 100%;
   }
-`
+`;
 
 
 export const ImageContainer = styled.div`
@@ -27,8 +27,12 @@ export const ImageContainer = styled.div`
     height: 100%;
     padding-bottom: 25rem;
     padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-`
+`;
+
 export const MainContainer = styled.div`
   font-size: 2rem;
   width: 70%;
@@ -39,10 +43,10 @@ export const MainContainer = styled.div`
     width: 100%;
     height: 100%;
   }
-`
+`;
 
 export const Container = styled.div`
   width: 90%;
   height: 100%;
   margin: 0 auto;
-`
+`;

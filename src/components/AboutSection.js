@@ -6,74 +6,85 @@ import SectionTitle from './SectionTitle'
 export default function AboutSection() {
   return (
     <Section>
-      <SectionTitle title='Caleb Benjamin' sub='FrontEnd/UX Engineer' />
+      {/* <SubTitle>Frontend/UX Engineer</SubTitle> */}
+      <Title><small>Hello,</small> I'm Caleb, the Multi-disciplinary JavaScript Engineer</Title>
 
-      <Text>
-        Hi, My name is Caleb Benjamin I am a Web Designer, and etiam accumsan
-        scelerisque rhoncus. Nulla quis laorey velit drana. Pelteqle quisu
-        velleopha retra congue. Nulla quis laoreet velit. Pelteqle quisu
-        velleopha retra congue. Lorem ipsum nolan sithe cons eturadip liscing
-        elit. Donec hendrerit sapien coner the consequat erose viverra at.
-        Quality quis laorey velit. Pelteqle quisu velleopha retra the congue.
+      <Text>I'm a Nigeria-based frontend engineer who care about creating thoughtful digital experiences that lie at interaction of beauty, funtional, maintainable, scaleable, and context. I have four years of experience using <span>JavaScript, ReactJS, NextJS, TypeScript Css-in-JS, Styled-Component, Redux, Unit testing, and StoryBook</span> to create digital products for Organizations of all Sizes.
       </Text>
 
       <Box>
-          <ul>
-            <li>
-              <span>Email:</span> contact@calebbenjin.dev
-            </li>
-            <li>
-              <span>Phone:</span> +234 906 632 2383
-            </li>
-            <li>
-              <span>Birthday:</span> 09 December
-            </li>
-          </ul>
-          <Icons />
+        <h4>Wanna say hey?</h4>
+        <Text>I'd love to hear from you.😍🥰</Text>
+        <Icons />
       </Box>
-        <Button title='Hire Me' />
+        {/* <Button title='Hire Me' /> */}
     </Section>
   )
 }
 
 const Section = styled.section`
   margin: 4rem 0;
-`
+`;
+
+const Title = styled.h1`
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ccc;
+  letter-spacing: 1.5px;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  font-family: ${props => props.theme.fonts.heading};
+  
+  small {
+    font-size: 5rem;
+    color: #fff;
+  }
+`;
+
+const SubTitle = styled.h4`
+  color: ${props => props.theme.colors.primaryColor};
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+  font-family: ${props => props.theme.fonts.mainFont}
+`;
 
 const Text = styled.p`
   color: ${(props) => props.theme.colors.textColor};
   letter-spacing: 1px;
-  font-size: 1.5rem;
-  margin-bottom: 4rem;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
   @media ${(props) => props.theme.breakpoints.lg} {
     margin-bottom: 2rem;
+  }
+  span {
+    color: #fff;
+  }
+  small {
+    font-size: 3rem;
+    color: #fff;
   }
 `
 
 const Box = styled.div`
   width: 80%;
   color: ${(props) => props.theme.colors.textColor};
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr;
   column-gap: 30px;
-  row-gap: 30px;
-  margin-bottom: 3rem;
-  ul li {
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    list-style: none;
-    span {
-      font-weight: 700;
-      color: #eee;
-      margin-right: 1rem;
-    }
+  row-gap: 30px; */
+  /* margin-bottom: 3rem; */
+  h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    margin-top: 5rem;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
     column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 30px; */
     margin-bottom: 1rem;
     ul li {
       margin-top: 1.5rem;

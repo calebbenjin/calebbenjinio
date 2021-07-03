@@ -12,10 +12,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html { 
-    font-size: 65.5%;
+    font-size: 70%;
     -webkit-font-smoothing: antialiased; 
     scroll-behavior: smooth;
     cursor: default;
+    letter-spacing: 1.5px;
   }
 
   .btnIcon {
@@ -55,7 +56,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
-      font-size: 15px;
       line-height: 1.5;
       font-weight: 400;
       color: ${props => props.theme.colors.textColor};
@@ -63,8 +63,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
   body {
-    font-family: ${props => props.theme.fonts.heading};
-    ${'' /* font-family: 'Courier New', Courier, monospace; */}
+    font-family: ${props => props.theme.fonts.text};
     color: ${props => props.theme.colors.textColor};
     background: ${props => props.theme.colors.darkColor};
   }

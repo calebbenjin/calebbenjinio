@@ -6,7 +6,7 @@ export default function resumePage() {
   return (
     <LayoutPage>
       <ExperinceSection />
-      <EducationSection />
+      {/* <EducationSection /> */}
     </LayoutPage>
   )
 }

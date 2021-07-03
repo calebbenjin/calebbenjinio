@@ -1,12 +1,12 @@
 import AboutSection from "@/components/AboutSection";
 import LayoutPage from "@/components/Layout/Layout";
-import TechStack from "@/components/TechStack";
+import ProjectList from "@/components/ProjectList";
 
 export default function Home() {
   return (
     <LayoutPage >
       <AboutSection />
-      <TechStack />
+      <ProjectList />
     </LayoutPage>
   )
 }

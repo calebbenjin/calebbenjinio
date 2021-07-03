@@ -15,16 +15,16 @@ export default function MobileFooter() {
       </Link>
       <Link href="/resume">
         <a>
-          <IoNewspaperOutline className="icon" />
-          <p>Resume</p>
+          <IoIosContact className="icon" />
+          <p>About me</p>
         </a>
       </Link>
-      <Link href="/projects">
+      {/* <Link href="/projects">
         <a>
           <IoFolderOpenOutline className="icon" />
           <p>Projects</p>
         </a>
-      </Link>
+      </Link> */}
       <Link href="/blog">
         <a>
           <IoBookOutline className="icon" />
@@ -33,7 +33,7 @@ export default function MobileFooter() {
       </Link>
       <Link href="/contact">
         <a>
-          <IoIosContact className="icon" />
+          <IoNewspaperOutline className="icon" />
           <p>Contact</p>
         </a>
       </Link>
@@ -49,7 +49,7 @@ const Footer = styled.footer`
     border-top: solid 1px ${(props) => props.theme.colors.greyColor};
     z-index: 9;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 30px;
     position: fixed;

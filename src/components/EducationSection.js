@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: 'Master In Computer Science',
-    date: '2014 - 2016',
+    date: '20',
     description:
       'Education convallis lacinia est et volutpat. Ut interdum lectus velit ac venenatis odio frina vivense auris tincidun diamanisi mollis rhoncus. Nam non ante conse malesuada. Quality interdum lectus odio erince imperdiet augue erat aliquer interdume turpis congue aliquam.',
   },
@@ -28,7 +28,7 @@ const data = [
 export default function EducationSection() {
   return (
     <Section>
-      <SectionTitle title='EDUCATIONS' sub='RESUME' />
+      <SectionTitle title='EDUCATIONS' sub='STUDY @' />
 
       {data.map((item) => (
         <Card key={item.id}>
@@ -55,9 +55,15 @@ const Card = styled.section`
   padding-right: 6rem;
   /* padding-top: 2rem; */
   transition: all 0.2s ease-in;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding-left: 2rem;
+    padding-right: 0rem;
+  }
   h3 {
     font-size: 1.6rem;
     padding-top: 2.5rem;
+    letter-spacing: 1.5px;
+    color: ${(props) => props.theme.colors.primaryColor};
   }
   .date {
     margin: 0.7rem 0;

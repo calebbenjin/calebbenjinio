@@ -38,14 +38,16 @@ export default function Icons() {
 }
 
 const IconDiv = styled.div`
-  width: 100%;
+  width: 50%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 30px;
-  row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 10px;
+  margin-top: -1rem;
   .icon {
-    font-size: 3rem;
-    color: ${props => props.theme.colors.darkColor};
+    font-size: 2.5rem;
+    /* color: ${props => props.theme.colors.greyColor}; */
+    color: #fff;
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
@@ -53,15 +55,11 @@ const IconDiv = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     row-gap: 30px;
-
-    ul li {
-      margin-bottom: 1.5rem;
-    }
   }
 `;
 
 const Icon = styled.div`
-  background: ${(props) => props.theme.colors.primaryColor};
+  background: ${(props) => props.theme.colors.Color};
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -69,20 +67,12 @@ const Icon = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.57) 0px 9px 20px;
+  border: solid 1px ${(props) => props.theme.colors.greyColor};
   transition: all 0.4s ease-in;
   &:hover {
     background: #fff;
-    .linkedin {
-      color: #0e76a8;
-    }
-    .twitter {
-      color: #00acee;
-    }
-    .instagram {
-      color: #cd486b;
-    }
-    .github {
-      color: #4078c0;
+    .icon {
+      color: ${(props) => props.theme.colors.darkColor};
     }
   }
 `;

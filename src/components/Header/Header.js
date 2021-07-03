@@ -5,18 +5,18 @@ import Slide from 'react-reveal/Slide'
 
 export default function Head() {
   return (
-    <Slide left cascade>
+    // <Slide left cascade>
       <Header>
         <Nav>
           <Link href='/'>
             <a>Home</a>
           </Link>
           <Link href='/resume'>
-            <a>Resume</a>
+            <a>About Me</a>
           </Link>
-          <Link href='/projects'>
+          {/* <Link href='/projects'>
             <a>Projects</a>
-          </Link>
+          </Link> */}
           <Link href='/blog'>
             <a>Blog</a>
           </Link>
@@ -28,6 +28,6 @@ export default function Head() {
           <BsThreeDotsVertical />
         </Toggle>
       </Header>
-    </Slide>
+    // </Slide>
   )
 }

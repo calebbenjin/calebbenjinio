@@ -5,7 +5,7 @@ export const Footer = styled.footer`
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 14%;
+  height: 12%;
   width: 80%;
   background: ${props => props.theme.colors.darkColor};
   display: flex;
@@ -25,11 +25,11 @@ export const Info = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
-  font-family: ${props => props.theme.fonts.mainFont};
+  /* font-family: ${props => props.theme.fonts.mainFont}; */
   h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   p {
     /* letter-spacing: 1px; */
@@ -37,7 +37,8 @@ export const Info = styled.div`
     color: ${props => props.theme.colors.primaryColor};
     margin: 0;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-top: 5px;
     align-items: center;
   }
 `;

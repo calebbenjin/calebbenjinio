@@ -75,52 +75,52 @@ export const TimeLineData = [
 
 
 export const articles = [
-  {
-    id: 1,
-    img: '/images/blog1.jpg',
-    title: 'JavaScript Fundamental',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
-  {
-    id: 2,
-    img: '/images/3.jpg',
-    title: 'React Fundamental',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
-  {
-    id: 3,
-    img: '/images/3.jpg',
-    title: 'JavaScript RoadMap',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
-  {
-    id: 4,
-    img: '/images/blog1.jpg',
-    title: 'NextJS Fundamental',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
-  {
-    id: 5,
-    img: '/images/3.jpg',
-    title: 'JavaScript RoadMap',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
-  {
-    id: 6,
-    img: '/images/blog1.jpg',
-    title: 'NextJS Fundamental',
-    body:
-      'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
-    category: 'javascript',
-  },
+  // {
+  //   id: 1,
+  //   img: '/images/blog1.jpg',
+  //   title: 'JavaScript Fundamental',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
+  // {
+  //   id: 2,
+  //   img: '/images/3.jpg',
+  //   title: 'React Fundamental',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
+  // {
+  //   id: 3,
+  //   img: '/images/3.jpg',
+  //   title: 'JavaScript RoadMap',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
+  // {
+  //   id: 4,
+  //   img: '/images/blog1.jpg',
+  //   title: 'NextJS Fundamental',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
+  // {
+  //   id: 5,
+  //   img: '/images/3.jpg',
+  //   title: 'JavaScript RoadMap',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
+  // {
+  //   id: 6,
+  //   img: '/images/blog1.jpg',
+  //   title: 'NextJS Fundamental',
+  //   body:
+  //     'Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui sapien coner consequat erose viverra at. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque. Vivamus aliquam semper orci, ut sodales est mollis eget. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi a odio scelerisque rutrum a ornare massa. Donec hendrerit dui sapien coner consequat erose viverra at. Nulla quis laoreet velit. Pelteqle quisu velleopha retra congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam semper orci, ut sodales est mollis eget. Sed vel nisi a odio scelerisque rutrum a ornare massa. Maecen tincidunt enim vel vestibulum pellentesque.',
+  //   category: 'javascript',
+  // },
 ]

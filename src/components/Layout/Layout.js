@@ -1,6 +1,7 @@
 import { Layout, ImageContainer, MainContainer, Container } from './LayoutStyle'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
+import { DownloadBtn } from '@/components/Button/Button'
 import SmallFooter from '@/components/Footer/SmallFooter'
 import Logo from '../Logo'
 import Slide from 'react-reveal/Slide'
@@ -11,10 +12,11 @@ export default function LayoutPage({ children }) {
     <Layout>
       <ImageContainer className='sliderImg'>
         <Logo />
+        <DownloadBtn title="Download CV" />
       </ImageContainer>
       <MainContainer>
-        <Slide left>
           <Header />
+        <Slide left>
           <Container>
             {children}
             <SmallFooter />

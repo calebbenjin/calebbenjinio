@@ -10,7 +10,8 @@ export default {
 
   fonts: {
     mainFont: "'Rambla', sans-serif",
-    heading: " 'Oswald', sans-serif"
+    heading: " 'Oswald', sans-serif",
+    text:  "'Lato', sans-serif",
   },
   
   // Breakpoints for responsive design
