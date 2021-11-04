@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Caleb Benjamin
 - 👀 I’m interested in Javascript, React, NextJs, TypeScript, Nodejs.
-- 🌱 I’m currently improving my skills TypeScript, and NodeJs.
+- 🌱 I’m currently working on Logistic Web App with Next.js, Chakara-UI, TypeScript and Redux.
 - 💞️ I’m looking to collaborate on 
 - 📫 How to reach me ...
 
