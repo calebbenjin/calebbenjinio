@@ -3,7 +3,7 @@
 - 🌱 I’m currently working on Logistic Web App with Next.js, Chakara-UI. and a forex learning platform (optimuspro).
 - 🌱📃🖌💻 I’m currently learning Node.js, Web3.0, and Solidity. 
 - 💞️ I’m looking to collaborate on 
-- 📫 How to reach me? Email me: calebbenjin@gmail.com.
+- 📫 How to reach me? Email me: calebbenjin@gmail.com My portfolio is under restructuring https://calebbenjin.io.vercel.app
 
 <!---
 johngrey399/johngrey399 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
